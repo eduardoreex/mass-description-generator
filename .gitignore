@@ -1,0 +1,35 @@
+# Segredos — NUNCA commitar
+.env
+
+# Pastas de dados (planilhas, imagens, backups ficam só local)
+input/
+output/
+imagens/
+backups/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Claude Code (configuracao local — nao vai pro GitHub)
+.claude/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
