@@ -32,7 +32,7 @@ Você vai ver `(venv)` na frente do cursor. Isso significa que está pronto.
 
 ### 2. Exporte a planilha do Tiny e coloque na pasta `input/`
 - No Tiny: Produtos → Exportar → salve como `.xlsx`
-- Cole o arquivo em: `c:\Users\SuporteT.I\Documents\Automação descrição\input\`
+- Cole o arquivo em: `c:\Users\Documents\Automação descrição\input\`
 
 ### 3. Simule primeiro (zero custo — obrigatório antes de rodar)
 ```powershell
