@@ -24,15 +24,15 @@ python limpar.py tudo
 
 ## Passo a passo completo (uso rotineiro)
 
-### 1. Abra o terminal no VS Code e ative o ambiente
+### 1. Abra o terminal na pasta do projeto e ative o ambiente
 ```powershell
-(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& "c:\Users\SuporteT.I\Documents\Automação descrição\venv\Scripts\Activate.ps1")
+(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& ".\venv\Scripts\Activate.ps1")
 ```
 Você vai ver `(venv)` na frente do cursor. Isso significa que está pronto.
 
 ### 2. Exporte a planilha do Tiny e coloque na pasta `input/`
 - No Tiny: Produtos → Exportar → salve como `.xlsx`
-- Cole o arquivo em: `c:\Users\Documents\Automação descrição\input\`
+- Cole o arquivo em: `input/`
 
 ### 3. Simule primeiro (zero custo — obrigatório antes de rodar)
 ```powershell
